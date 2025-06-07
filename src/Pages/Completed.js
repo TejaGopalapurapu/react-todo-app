@@ -4,6 +4,7 @@ function Completed() {
   return (
     <div style={{ textAlign: "center" }}>
       <h2>Completed Todos</h2>
+      <h2>Todos</h2>
       <p>Here we will show completed todos.</p>
     </div>
   );
