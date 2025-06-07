@@ -7,6 +7,7 @@ function Home({ todos, addTodo, removeTodo }) {
   return (
     <div>
         <h1>Home Page</h1>
+        <h2>To Do Project</h2>
       <TodoForm addTodo={addTodo} />
       <TodoList todos={todos} removeTodo={removeTodo} />
     </div>
